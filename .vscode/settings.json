@@ -13,7 +13,6 @@
             ]
         },
     ],
-    "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -31,7 +30,9 @@
                 "-outdir=%OUTDIR%",
                 "%DOC%"
             ],
-            "env": {}
+            "env": {
+                "PATH": "/usr/bin:%PATH%"
+            }
         },
         {
             "name": "xelatexmk",
